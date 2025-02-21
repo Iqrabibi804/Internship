@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #012b36;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #025f57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            background: #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .fill {
+            background: #025f57;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Internship Home</h2>
+        <nav>
+            <a href="dashboard.html">Go to Dashboard</a>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <h3>Welcome, Intern!</h3>
+        <p>Here's a quick snapshot of your internship progress.</p>
+    </section>
+
+    <section class="quick-links">
+        <h3>Quick Actions</h3>
+        <button>Start Task</button>
+        <button>Upload Work</button>
+        <button>Track Time</button>
+    </section>
+
+    <section class="updates">
+        <h3>Recent Updates</h3>
+        <ul>
+            <li>🔔 New Announcement from your mentor</li>
+            <li>📅 Your next deadline is approaching</li>
+        </ul>
+    </section>
+
+    <section class="progress">
+        <h3>Internship Progress</h3>
+        <div class="progress-bar">
+            <div class="fill" style="width: 60%;">60%</div>
+        </div>
+    </section>
+</body>
+</html>
